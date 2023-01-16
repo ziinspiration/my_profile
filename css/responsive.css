@@ -1,0 +1,174 @@
+@media screen and (max-width: 1024px) {
+  .education-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-education {
+    margin-bottom: 50px;
+  }
+
+  .text-about {
+    align-items: center;
+    margin: auto;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+  .p-satu {
+    margin-left: -60px;
+  }
+
+  .p-dua {
+    margin-left: -60px;
+  }
+
+  .head-home {
+    margin-left: -60px;
+  }
+  /* about */
+
+  .about-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-page h1 {
+    font-size: 60px;
+  }
+
+  .about-pic img {
+    margin: auto;
+  }
+
+  /* education */
+
+  .education-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-education {
+    margin-bottom: 50px;
+  }
+
+  /* contact */
+
+  .contact-page {
+    flex-direction: column;
+  }
+
+  .text-contact {
+    margin-bottom: 60px;
+  }
+}
+
+/* HANDPHONE */
+@media screen and (max-width: 500px) {
+  /* navigasi */
+
+  .nav-home {
+    background-position-x: 35%;
+  }
+
+  .navigasi-utama {
+    width: 92%;
+  }
+
+  .navigasi-utama ul {
+    display: none;
+  }
+
+  .p-satu {
+    margin-left: -60px;
+  }
+
+  .p-dua {
+    margin-left: -60px;
+  }
+
+  .head-home {
+    margin-left: -60px;
+  }
+  /* about */
+
+  .about-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-page h1 {
+    font-size: 50px;
+    align-items: center;
+  }
+
+  .about-pic img {
+    margin: auto;
+  }
+
+  /* education */
+
+  .education-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-education {
+    margin-bottom: 50px;
+  }
+
+  /* education */
+
+  .education-page h1 {
+    font-size: 50px;
+  }
+
+  /* skill */
+
+  .skill-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-card {
+    margin: auto;
+  }
+
+  h1.head-skill {
+    font-size: 60px;
+    margin-bottom: 90px;
+  }
+
+  .skill-satu {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .skill-dua {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .skill-tiga {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  /* contact */
+
+  .contact-page {
+    flex-direction: column;
+  }
+
+  .text-contact {
+    margin-bottom: 60px;
+  }
+
+  /* nav footer */
+  .footer-nav {
+    display: flex;
+    position: fixed;
+    margin: auto;
+    align-content: center;
+  }
+}
